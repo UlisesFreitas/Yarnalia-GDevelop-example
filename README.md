@@ -1,0 +1,1 @@
+# Yarnalia-GDevelop-example
