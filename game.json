@@ -10,13 +10,13 @@
     "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "io.crimsongames.dialogalia",
+    "packageName": "com.example.dialogalia",
     "projectUuid": "36978073-eafe-43ce-9072-1af0496dc94b",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
-    "name": "Dialogalia - Yarn dialog with avatars",
+    "version": "1.0.1",
+    "name": "Dialogalia - Yarn dialog with NPCs, avatars & quests",
     "author": "Ulises Freitas",
     "windowWidth": 640,
     "windowHeight": 384,
@@ -25,32 +25,32 @@
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "android-icon-144.png",
-      "android-icon-192": "android-icon-192.png",
-      "android-icon-36": "android-icon-36.png",
-      "android-icon-48": "android-icon-48.png",
-      "android-icon-72": "android-icon-72.png",
-      "android-icon-96": "android-icon-96.png",
-      "desktop-icon-512": "desktop-icon-512.png",
-      "ios-icon-100": "ios-icon-100.png",
-      "ios-icon-1024": "ios-icon-1024.png",
-      "ios-icon-114": "ios-icon-114.png",
-      "ios-icon-120": "ios-icon-120.png",
-      "ios-icon-144": "ios-icon-144.png",
-      "ios-icon-152": "ios-icon-152.png",
-      "ios-icon-167": "ios-icon-167.png",
-      "ios-icon-180": "ios-icon-180.png",
-      "ios-icon-20": "ios-icon-20.png",
-      "ios-icon-29": "ios-icon-29.png",
-      "ios-icon-40": "ios-icon-40.png",
-      "ios-icon-50": "ios-icon-50.png",
-      "ios-icon-57": "ios-icon-57.png",
-      "ios-icon-58": "ios-icon-58.png",
-      "ios-icon-60": "ios-icon-60.png",
-      "ios-icon-72": "ios-icon-72.png",
-      "ios-icon-76": "ios-icon-76.png",
-      "ios-icon-80": "ios-icon-80.png",
-      "ios-icon-87": "ios-icon-87.png"
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
     },
     "loadingScreen": {
       "backgroundColor": 9442302,
@@ -556,236 +556,20 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "desktop-icon-512.png",
+        "file": "assets/hud/textBG-1-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "desktop-icon-512.png",
-        "smoothed": true,
+        "name": "assets\\hud\\textBG-1-1.png",
+        "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-192.png",
+        "file": "assets/player/PlayerArea-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-192.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-96.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-48.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-1024.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-1024.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-180.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-180.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-167.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-167.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-152.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-152.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-120.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-120.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-114.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-114.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-100.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-87.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-80.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-76.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-60.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-58.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-57.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-50.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-40.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-29.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-20.png",
-        "smoothed": true,
+        "name": "assets\\player\\PlayerArea-1.png",
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -816,29 +600,56 @@
         "userAdded": true
       },
       {
+        "alwaysLoaded": false,
+        "file": "assets/hud/ArrowIndicator-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud\\ArrowIndicator-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud/ArrowIndicator-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud\\ArrowIndicator-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud/answer_box_160x96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud\\answer_box_160x96.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/Key-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\Key-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/npc/obj_npc_king_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\obj_npc_king_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
         "disablePreload": false,
         "file": "assets/npcs.json",
         "kind": "json",
         "metadata": "",
         "name": "assets\\npcs.json",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/hud/textBG-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\hud\\textBG-1-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player/PlayerArea-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\player\\PlayerArea-1.png",
-        "smoothed": false,
         "userAdded": true
       }
     ],
@@ -870,18 +681,18 @@
   ],
   "layouts": [
     {
-      "b": 247,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "GameScene",
       "name": "GameScene",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 208,
+      "r": 0,
       "standardSortMethod": false,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 244,
+      "v": 0,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -891,7 +702,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "snap": true,
-        "zoomFactor": 1.7402665771484338,
+        "zoomFactor": 2.1569332031249955,
         "windowMask": true
       },
       "objectsGroups": [
@@ -919,13 +730,13 @@
           "name": "textHud",
           "objects": [
             {
-              "name": "textBg"
+              "name": "HudPanel"
             },
             {
-              "name": "avatars"
+              "name": "Avatars"
             },
             {
-              "name": "questionChoicesText"
+              "name": "QuestionChoicesText"
             },
             {
               "name": "DialogueTreeBBtextObject"
@@ -955,9 +766,9 @@
           "name": "Player",
           "persistentUuid": "068bfe87-6ad9-44e4-861f-a60e4859ff94",
           "width": 0,
-          "x": 372,
+          "x": 388,
           "y": 240,
-          "zOrder": 13,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -968,12 +779,12 @@
           "height": 32,
           "layer": "",
           "locked": false,
-          "name": "tile_1",
+          "name": "Floor",
           "persistentUuid": "65bb3499-1bcd-4efc-893f-48dbaa88b299",
           "width": 1000,
           "x": 0,
           "y": 240,
-          "zOrder": -1,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -987,7 +798,7 @@
           "name": "PlayerHitBox",
           "persistentUuid": "f85d2862-9a59-4d96-b586-f8bd814555fa",
           "width": 32,
-          "x": 372,
+          "x": 388,
           "y": 240,
           "zOrder": 1,
           "numberProperties": [
@@ -1048,7 +859,7 @@
           "width": 0,
           "x": 584,
           "y": 240,
-          "zOrder": -10,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -1070,7 +881,7 @@
           "height": 64,
           "layer": "GUI",
           "locked": false,
-          "name": "questionChoicesText",
+          "name": "QuestionChoicesText",
           "persistentUuid": "3a4b4ed1-c534-4247-ad47-a709e1325970",
           "width": 112,
           "x": 500,
@@ -1089,7 +900,7 @@
           "name": "King",
           "persistentUuid": "f04c4b41-4f2c-40d6-8ce4-29dbf7044dd5",
           "width": 0,
-          "x": 468,
+          "x": 492,
           "y": 240,
           "zOrder": 9,
           "numberProperties": [],
@@ -1102,7 +913,7 @@
           "height": 126,
           "layer": "GUI",
           "locked": false,
-          "name": "textBg",
+          "name": "HudPanel",
           "persistentUuid": "4aeaa6a0-fa9d-4dee-8854-86f3947cce18",
           "width": 632,
           "x": 4,
@@ -1118,7 +929,7 @@
           "height": 64,
           "layer": "GUI",
           "locked": false,
-          "name": "avatars",
+          "name": "Avatars",
           "persistentUuid": "7795ae3e-f6ee-42ac-818f-5ec40bbf2916",
           "width": 64,
           "x": 12,
@@ -1156,22 +967,6 @@
           "x": 80,
           "y": 264,
           "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "commandsDebug",
-          "persistentUuid": "02a59e6a-e6e6-4a90-943d-97ac2f415d33",
-          "width": 0,
-          "x": 13,
-          "y": 12,
-          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1244,7 +1039,7 @@
           "name": "ColliderNPC",
           "persistentUuid": "b1832976-4b08-4bfe-ae77-bdceda68f2bd",
           "width": 0,
-          "x": 436,
+          "x": 444,
           "y": 240,
           "zOrder": 52,
           "numberProperties": [],
@@ -1263,7 +1058,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "houses",
+          "name": "Houses",
           "persistentUuid": "2d41a476-a315-40de-b44b-2f33c4597595",
           "width": 0,
           "x": 856,
@@ -1284,7 +1079,7 @@
           "width": 32,
           "x": 968,
           "y": -16,
-          "zOrder": 53,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1295,7 +1090,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "houses",
+          "name": "Houses",
           "persistentUuid": "ec7b65e9-feed-4486-b01c-781d98aaaf82",
           "width": 0,
           "x": 208,
@@ -1321,7 +1116,7 @@
           "width": 32,
           "x": 0,
           "y": -16,
-          "zOrder": 54,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1337,7 +1132,7 @@
           "width": 32,
           "x": 608,
           "y": -16,
-          "zOrder": 53,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1345,7 +1140,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 384,
+          "height": 244,
           "layer": "",
           "locked": false,
           "name": "CaslteWallBackground",
@@ -1353,7 +1148,7 @@
           "width": 1000,
           "x": 0,
           "y": 0,
-          "zOrder": -11,
+          "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1369,7 +1164,7 @@
           "width": 96,
           "x": 32,
           "y": 112,
-          "zOrder": 55,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1385,7 +1180,7 @@
           "width": 0,
           "x": 96,
           "y": 144,
-          "zOrder": 57,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1412,7 +1207,7 @@
           "height": 112,
           "layer": "GUI",
           "locked": false,
-          "name": "textBg",
+          "name": "HudPanel",
           "persistentUuid": "c05331b8-9e44-4210-931e-88f6e93a8bf9",
           "width": 136,
           "x": 492,
@@ -1430,22 +1225,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 116,
-          "layer": "",
-          "locked": false,
-          "name": "Black",
-          "persistentUuid": "a384a880-2034-421d-b839-c857fa54fd91",
-          "width": 1000,
-          "x": 0,
-          "y": 272,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1455,23 +1234,23 @@
           "width": 0,
           "x": 56,
           "y": 216,
-          "zOrder": 59,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 12.800000190734863,
           "layer": "",
           "locked": false,
           "name": "Key",
           "persistentUuid": "a189369b-7285-4267-ab1d-12e01347cda4",
-          "width": 0,
-          "x": 244,
-          "y": 224,
-          "zOrder": 60,
+          "width": 16,
+          "x": 248,
+          "y": 216,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1487,7 +1266,7 @@
           "width": 0,
           "x": 608,
           "y": 176,
-          "zOrder": 61,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1501,9 +1280,9 @@
           "name": "Sign",
           "persistentUuid": "a8fbdacc-8e31-4108-b766-68781206fdec",
           "width": 0,
-          "x": 404,
+          "x": 384,
           "y": 244,
-          "zOrder": -10,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1893,7 +1672,7 @@
         },
         {
           "height": 32,
-          "name": "tile_1",
+          "name": "Floor",
           "tags": "",
           "texture": "assets\\scenarios\\obj_block_black_bottom.png",
           "type": "TiledSpriteObject::TiledSprite",
@@ -1947,7 +1726,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\player\\PlayerArea-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Z",
+                          "x": 16,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 16,
@@ -2463,7 +2248,13 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\scenarios\\obj_npc_sign.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Arrow",
+                          "x": 16,
+                          "y": 8
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 16,
@@ -2896,7 +2687,7 @@
           "bottomMargin": 5,
           "height": 24,
           "leftMargin": 5,
-          "name": "textBg",
+          "name": "HudPanel",
           "rightMargin": 5,
           "tags": "",
           "texture": "assets\\hud\\textBG-1-1.png",
@@ -2915,7 +2706,7 @@
           "behaviors": []
         },
         {
-          "name": "avatars",
+          "name": "Avatars",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3226,28 +3017,8 @@
         },
         {
           "bold": false,
-          "italic": false,
-          "name": "commandsDebug",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 219,
-            "g": 0,
-            "r": 160
-          }
-        },
-        {
-          "bold": false,
           "italic": true,
-          "name": "questionChoicesText",
+          "name": "QuestionChoicesText",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -3340,7 +3111,7 @@
           ]
         },
         {
-          "name": "houses",
+          "name": "Houses",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3746,17 +3517,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "Black",
-          "tags": "",
-          "texture": "assets\\scenarios\\Black-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "name": "Key",
           "tags": "",
           "type": "Sprite",
@@ -3829,9 +3589,81 @@
               ]
             }
           ]
+        },
+        {
+          "name": "ZPress",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\hud\\ArrowIndicator-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\hud\\ArrowIndicator-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Author: Ulises Freitas\nVersion: 1.0.1\nDialogali - Yarnalia - Whatever is another example of Yarn dialogs for GDevelop 5 this time with quests and avatars.\n",
+          "comment2": ""
+        },
         {
           "colorB": 5,
           "colorG": 117,
@@ -3876,7 +3708,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "avatars"
+                    "Avatars"
                   ],
                   "subInstructions": []
                 },
@@ -3886,7 +3718,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "textBg"
+                    "HudPanel"
                   ],
                   "subInstructions": []
                 },
@@ -3933,32 +3765,246 @@
                     "False"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
+                    "value": "Create"
                   },
                   "parameters": [
-                    "Player",
-                    "=",
-                    "PlayerHitBox.X()",
-                    "=",
-                    "PlayerHitBox.Y()"
+                    "",
+                    "ZPress",
+                    "PlayerHitBox.PointX(\"Z\")",
+                    "PlayerHitBox.PointY(\"Z\")",
+                    "\"\""
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Always running",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "PlayerHitBox.X()",
+                        "=",
+                        "PlayerHitBox.Y()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "ZPress",
+                        "=",
+                        "PlayerHitBox.PointX(\"Z\")",
+                        "=",
+                        "PlayerHitBox.PointY(\"Z\")"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "ZPress"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerHitBox",
+                            "Sign",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerHitBox",
+                            "Ashley",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerHitBox",
+                            "King",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "ZPress",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "Jaina",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "Jaina"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "ZPress",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "Knives",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "Knives"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "ZPress",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": []
             },
             {
               "colorB": 228,
@@ -3988,7 +4034,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4288,6 +4334,21 @@
               "parameters": []
             },
             {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "when yuo take the Ashley quest a Switch will appear in front of the door just walk in and the door will open",
+              "comment2": ""
+            },
+            {
               "colorB": 228,
               "colorG": 176,
               "colorR": 74,
@@ -4382,6 +4443,21 @@
                 {
                   "disabled": false,
                   "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "When you success in the Ashley quest a yellow key will appear near the house",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4449,6 +4525,21 @@
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If you collide with the golden door and you don't have the golden key nothing is going to happen, if you have the key the door will open.",
+                  "comment2": ""
+                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -4523,6 +4614,21 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Simple AI to move the king left/right when he collides with the ColliderNPC",
+              "comment2": ""
+            },
             {
               "disabled": false,
               "folded": false,
@@ -4691,6 +4797,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Here load the dialog data from the JSON file this file is under assets/ folder",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4734,6 +4855,112 @@
                   "parameters": [
                     "",
                     "\"endedChat\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "When the scenes begin we load the dialogs from the JSON and Reset the timer \"endedChat\" so if is greater than 0.05 and the PlayerHitBox is in collision with a Sign the very first sign will start the dialog to make sure the Player knows which key use for start a dialog [Z] and move LEFT,RIGHT and Spacebar to Jump.",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.05",
+                    "\"endedChat\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerHitBox",
+                    "Sign",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Sign",
+                    "state",
+                    "=",
+                    "\"sign\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Start\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Sign",
+                    "state",
+                    "=",
+                    "\"talking\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"idle\""
                   ],
                   "subInstructions": []
                 }
@@ -5381,26 +5608,6 @@
                     }
                   ],
                   "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "DialogueTree::CompareDialogueStateBooleanVariable"
-                      },
-                      "parameters": [
-                        "\"debug\"",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [],
-                  "events": []
                 }
               ]
             },
@@ -5442,7 +5649,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "questionChoicesText"
+                    "QuestionChoicesText"
                   ],
                   "subInstructions": []
                 }
@@ -5459,7 +5666,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "textBg",
+                        "HudPanel",
                         "number",
                         "=",
                         "1"
@@ -5474,7 +5681,7 @@
                         "value": "Cache"
                       },
                       "parameters": [
-                        "textBg"
+                        "HudPanel"
                       ],
                       "subInstructions": []
                     }
@@ -5506,7 +5713,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "questionChoicesText",
+                    "QuestionChoicesText",
                     ""
                   ],
                   "subInstructions": []
@@ -5524,7 +5731,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "textBg",
+                        "HudPanel",
                         "number",
                         "=",
                         "1"
@@ -5539,7 +5746,7 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "textBg",
+                        "HudPanel",
                         ""
                       ],
                       "subInstructions": []
@@ -5655,7 +5862,7 @@
                         "value": "TextObject::String"
                       },
                       "parameters": [
-                        "questionChoicesText",
+                        "QuestionChoicesText",
                         "=",
                         "DialogueTree::VerticalOptionsList(\">\")"
                       ],
@@ -5704,7 +5911,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "avatars",
+                    "Avatars",
                     "DialogueTree::CommandParameter(0)"
                   ],
                   "subInstructions": []
